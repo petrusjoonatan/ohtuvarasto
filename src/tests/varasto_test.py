@@ -23,8 +23,9 @@ class TestVarasto(unittest.TestCase):
 
         self.assertAlmostEqual(varasto.saldo, 0)
 
+    # TÄHÄN VAIHDETTU 10 ---> 10000
     def test_konstruktori_rajoittaa_liian_suuren_alkusaldon(self):
-        varasto = Varasto(10, 11)
+        varasto = Varasto(100000, 11)
 
         self.assertAlmostEqual(varasto.saldo, 10)
 
