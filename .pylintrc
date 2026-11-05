@@ -30,5 +30,5 @@ max-statements=15
 
 [SPELLING]
 
-spelling-ignore-words-list=test,tests
+spelling-ignore-words=test,tests
 
