@@ -27,3 +27,8 @@ disable=raw-checker-failed,
 [DESIGN]
 
 --max-statements=15
+
+[SPELLING]
+
+--spelling-ignore-words-list=test,tests
+
