@@ -18,17 +18,17 @@ disable=raw-checker-failed,
 
 [FORMAT]
 
---max-line-length=80
+max-line-length=80
 
 [REFACTORING]
 
---max-nested-blocks=2
+max-nested-blocks=2
 
 [DESIGN]
 
---max-statements=15
+max-statements=15
 
 [SPELLING]
 
---spelling-ignore-words-list=test,tests
+spelling-ignore-words-list=test,tests
 
